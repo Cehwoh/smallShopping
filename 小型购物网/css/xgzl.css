@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../image/lp2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.xgzl {
+    display: flex;
+    /*两行*/
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 10px;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+.xgzl h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.xgzl .input-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-35px);
+}
+
+.xgzl .input-box .input-test {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.xgzl .input-box .input-test span {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.xgzl .input-box .input-test input {
+    border: 0;
+    padding: 6px;
+    border-bottom: 1px solid white;
+    background-color: #ffffff00;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.xgzl .input-box .input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 145px;
+    height: 25px;
+    color: #fff;
+    background: linear-gradient(120deg, #a9bbe5 0%, #c682e5 100%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.xgzl .input-box .input-btn a {
+    text-decoration: none;
+}
